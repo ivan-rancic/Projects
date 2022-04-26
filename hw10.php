@@ -30,7 +30,7 @@ echo "<br>";
 
 //Zadatak 2
 
-$g = rand(0,6);
+$g = mt_rand(0,6);
 $days = array ("ponedeljak", "utorak", "sreda", "četvrtak", "petak", "subota", "nedelja");
 echo "Danas je " . $days[$g] . "!";
 echo "<br>";
