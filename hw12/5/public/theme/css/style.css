@@ -1,0 +1,640 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url("../img/back23.jpg");
+    background-size: cover;
+}
+
+h2 {
+    color: rgb(36, 157, 197);
+    text-shadow: 1px 1px 1px black;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;   
+}
+
+
+
+/* header na svim stranicama */
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-shadow: 1px 1px 4px black;
+    
+}
+
+header nav ul li a:hover {
+color: rgb(36, 157, 197);
+text-shadow: none;
+}
+
+
+header nav ul li {
+    display: inline-block;
+    
+}
+
+header nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0%;
+    
+}
+
+.logo {
+    height: 40px;
+    margin-top: 26px;
+    margin-left: 20px;
+}
+
+header nav {
+    width: 50%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-container {
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0%;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(rgb(200, 200, 200), rgb(255, 255, 255)) ;
+}
+
+.but-right {
+display: flex;
+align-items: center;
+width: 170px;
+justify-content: space-between;
+margin-right: 20px;
+}
+
+.but-right button{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(36, 157, 197);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.but-right button:hover {
+    font-weight: bold;
+    border: 3px solid white;
+}
+
+
+
+
+
+
+
+/* samo za produsts.html */
+
+aside {
+    width: 25%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    height: 95%;
+    margin-left: 20px;
+    text-align: center;
+}
+
+aside img {
+    margin: 10px;
+    margin-top: 25px;
+}
+
+aside form {
+    text-align: left;
+    margin: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 71%;
+    height: 95%;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-right: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pic{
+    width: 340px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(36, 157, 197);
+}
+
+.title button {
+    width: 100px;
+    height: 50px;
+    background-color: rgba(255, 0, 0, 0.5);
+    color: white;
+    border: none;
+}
+
+.title button:hover {
+    
+    background-color: white;
+    color: rgba(255, 0, 0, 0.5);
+    border: 2px solid rgba(255, 0, 0, 0.5);
+}
+
+.pic img {
+    max-width: 150px;
+    max-height: 150px;
+    filter: drop-shadow(16px 16px 10px black);
+}
+
+
+
+
+
+
+
+
+/* samo za index.html */
+
+.main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 85%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    margin-left: 220px;
+}
+
+.t4k {
+    width: 70%;
+    filter: drop-shadow(16px 16px 10px black);
+}
+
+.c1 {
+    width: 400px;
+    position: absolute;
+    right: 98px;
+    top: 222px;
+    filter: drop-shadow(16px 16px 10px black);
+}
+
+
+
+
+
+
+
+
+
+/* samo za single-produst.html */
+
+
+.main-div-single {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 70%;
+    height: 95%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    margin-left: 220px;
+}
+
+.pic-single {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pic-single img {
+    filter: drop-shadow(16px 16px 10px black);
+    max-height: 200px;
+}
+
+.opis {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 500px;
+    font-style: italic;    
+}
+
+
+.povezani {
+    display: flex;
+}
+
+.povezani-paragraf {
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer na svim stranicama */
+
+
+footer {
+
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 105px;
+    background-color: rgb(200, 200, 200);
+    color: black;
+    
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+
+   
+}
+
+footer a:hover {
+    color: rgb(36, 157, 197);
+}
+
+
+
+footer p {
+    text-align: center;
+    margin: 0%;
+   
+}
+
+footer table td:first-child {
+    width: 100px;
+}
+
+footer table {
+    padding: 8px;
+    padding-bottom: 0px;
+}
+
+.table-footer {
+    width: 80%;
+}
+
+.up-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* samo za contact-us */
+
+#form-contact-us {
+
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 55px;
+    font-size: large;
+    text-align: center;
+    
+}
+
+#form-contact-us label {
+    display: inline-block;
+    width: 250px;
+    text-align: right;
+}
+
+#form-contact-us textarea {
+    vertical-align: top;
+    width: 238px;
+    border-color: rgb(36, 157, 197);
+    border-radius: 4px;
+}
+
+#form-contact-us input {
+    width: 238px;
+    border-color: rgb(36, 157, 197);
+    border-radius: 4px;
+}
+
+
+
+
+/* samo za about-us */
+
+.o-nama {
+    width: 70%;
+    text-align: center;
+    color: rgb(36, 157, 197);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* samo za register.html */
+
+#form-register {
+
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 55px;
+    font-size: large;
+    text-align: center;
+    
+}
+
+#form-register label {
+    display: inline-block;
+    width: 250px;
+    text-align: right;
+}
+
+
+
+#form-register input {
+    width: 238px;
+    border-color: rgb(36, 157, 197);
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Samo za login.html */
+
+#form-login {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 55px;
+    font-size: large;
+    text-align: center;
+    
+}
+
+#form-login label {
+    display: inline-block;
+    width: 250px;
+    text-align: right;
+}
+
+
+
+#form-login input {
+    width: 238px;
+    border-color: rgb(36, 157, 197);
+    border-radius: 4px;
+}
+
+
+
+.dropdown {
+    display: none;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+
+
+    .c1 {
+       display: none;
+    }
+
+    .main-div {
+        margin-left: 15%;
+    }
+
+    aside {
+        width: 25%;
+        height: 100%;
+        background: none;
+        height: 95%;
+        margin-left: 20px;
+        text-align: center;
+        font-size: small;
+    }
+    
+    aside img {
+        margin: 10px;
+        margin-top: 25px;
+        width: 70%;
+    }
+
+    .nos {
+        display: none;
+    }
+
+    .povezani {
+        display: none;
+    }
+
+    .main-div-single {
+        margin-left: 15%;
+    }
+
+    .povezani-paragraf {
+        display: none;
+    }
+
+    .pic-single {
+        width: 100%;
+    }
+
+    .opis {
+        display: inline-block;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 576px) {
+
+
+    .c1 {
+       display: none;
+    }
+
+    .main-div {
+        margin-left: 15%;
+    }
+
+    header nav {
+        display: none;
+        
+    }
+
+    footer .but-right {
+        display: none;
+    }
+
+    footer {
+        font-size: small;
+    }
+
+    footer table td:first-child {
+        width: 60px;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .dropdown button{
+        width: 80px;
+        height: 50px;
+        background-color: rgb(3, 9, 11);
+        color: white;
+        border: 2px solid white;
+        border-radius: 5px;
+        margin-top: 30%;
+    }
+
+    .dropdown a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px 4px white;
+        
+    }
+
+    .nos {
+        display: none;
+    }
+
+    aside {
+        display: none;
+    }
+
+    main {
+        margin-left: 15%;
+    }
+
+    .povezani {
+        display: none;
+    }
+
+    .main-div-single {
+        margin-left: 15%;
+    }
+
+    .povezani-paragraf {
+        display: none;
+    }
+
+
+    h2 {
+        color: rgb(36, 157, 197);
+        text-shadow: none;
+        font-size: large;
+    }
+    #form-contact-us {
+        line-height: 25px;
+        font-size: medium;
+    }
+
+    #form-register {
+        line-height: 25px;
+        font-size: medium;
+    }
+
+    #form-login {
+        line-height: 25px;
+        font-size: medium;
+
+    }
+
+    .o-nama {
+        font-size: small;
+    }
+
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header class="header">
+
+<h1>Kalkulator za dnevni unos kalorija</h1>
+
+</header>
+
+<body>
+
+<div class="container">
+
+
+<div class="divlevi">
+<form action="zadatak1.php" method="POST">
+
+            <label for="zanimanje">Izaberi zanimanje:</label>
+        <select class="inp" name="zanimanje" id="zanimanje">
+            <option value="izaberi" default>Izaberi zanimanje</option>
+            <option value="programer">programer</option>
+            <option value="administrativni radnik">administrativni radnik</option>
+            <option value="menadžer">menadžer</option>
+            <option value="policajac">policajac</option>
+            <option value="vojnik">vojnik</option>
+            <option value="sportista">sportista</option>
+            <option value="ostalo">ostalo</option>
+        </select> <br>
+
+            <label for="godine">Koliko imaš godina?</label>
+            <input class="inp" type="number" id="godine" name="godine" placeholder="Unesi godine"><br>
+
+            <label for="masa">Koliko imaš kilograma?</label>
+            <input class="inp" type="number" id="masa" name="masa" placeholder="Unesi masu u kilogramima"><br>
+
+            <input class="but" type="submit" value="Izračunaj" name="sub">
+
+        </form>
+
+        <div class="uputstvo">
+        <p>(max kalorija = tezina * faktor aktivnosti * faktor starosti)</p>
+<p>Faktor aktivnosti zavisi od zanimanja koju osoba, tako da: - Ako ima zanimanje 'programer' (bukvalno ako je neko to napisao)  ili 'administrativni radnik' ili 'menadzer' faktor aktivnosti je 100 - Ako ima zanimanje 'policajac', 'vojnik' faktor aktivnosti je 200 - Ako ima zanimanje 'sportista' faktor aktivnosti je 300 - Za ostala zanimanja uzima se faktor aktivnosti 150</p> 
+<p>Faktor starosti zavisi od broja godina, tako da: - Ako neko ima od 0 do 3 godine - faktor starosti je 1.9 - Ako neko ima od 4 do 10 godina - faktor starosti je 1.5 - Ako neko ima od 11 do 18 godina - faktor starosti je 1.2 - Ako neko ima od 19 do 26 godina - faktor starosti je 1 - Ako neko ima od 27 do 30 ili od 50 do 60 godina - faktor starosti je 0.8 - Ako neko ima od 31 do 35 ili od 45 do 49 godina - faktor starosti je 0.7  - Ako neko ima od 36 do 44 ili preko 60 godina - faktor starosti je 0.6.</p> 
+
+        </div>
+
+</div>
+
+
+
+</div>
+    
+</body>
+</html>
